@@ -72,13 +72,18 @@ footer {
   }
 
   main {
-    width: 100%;
+    width: 90%;
     display: block;
   }
 
   .box {
     width: 90%;
-    margin: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .box:last-child {
+    margin: 0 auto;
   }
 
   .box-img1 {
